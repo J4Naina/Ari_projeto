@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cadastro - Currículo Lattes</title>
+    
+      <!-- 
+        - img_tela_inicial
+      -->
+      <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    
+      <!-- 
+        - link css
+      -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+    
+      <!-- 
+        - fonte google 
+      -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:hsl(275, 54%, 33%);
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nomeCompleto">Nome Completo:</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+
+        <label for="numeroWhatsapp">Número de WhatsApp:</label>
+        <input type="tel" id="numeroWhatsapp" name="numeroWhatsapp" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <label for="repetirSenha">Repetir Senha:</label>
+        <input type="password" id="repetirSenha" name="repetirSenha" required>
+
+        <label for="formacaoAcademica">Formação Acadêmica:</label>
+        <input type="text" id="formacaoAcademica" name="formacaoAcademica" required>
+
+        <label for="atuacaoProfissional">Atuação Profissional:</label>
+        <input type="text" id="atuacaoProfissional" name="atuacaoProfissional" required>
+
+        <label for="areaAtuacao">Área de Atuação:</label>
+        <input type="text" id="areaAtuacao" name="areaAtuacao" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        
+        <a href="confirmacao.html" class="btn" type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

@@ -3,16 +3,12 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
  */
 
 
 
 
 
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -39,9 +35,7 @@
   --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
   --gradient-2: linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
 
-  /**
-   * typography
-   */
+  
 
   --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
@@ -59,21 +53,19 @@
   --fw-600: 600;
   --fw-700: 700;
 
-  /**
-   * border radius
-   */
+  
 
   --radius-4: 4px;
   --radius-12: 12px;
 
   /**
-   * spacing
+   * espaço
    */
 
   --section-padding: 60px;
 
   /**
-   * transition
+   * transição
    */
 
   --transition-1: 0.15s ease;
@@ -119,7 +111,6 @@ ion-icon { display: block; }
 button,
 input {
   background: none;
-  border: none;
   font: inherit;
 }
 
